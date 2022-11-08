@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="view.ui.activities.RestablecerActivity">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="135dp"
+        android:layout_marginBottom="562dp"
+        app:srcCompat="@drawable/logocorporativo" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="136dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="222dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="463dp"
+        android:fontFamily="@font/opensanslight"
+        android:text="Reestablece tu contraseña"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName9"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="297dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="391dp"
+        android:background="@drawable/stylo_bordebox_text"
+        android:ems="10"
+        android:fontFamily="@font/opensanslight"
+        android:hint="Ingresa correo electrónico"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="385dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="298dp"
+        android:background="@drawable/stylo_bordebox_text"
+        android:ems="10"
+        android:fontFamily="@font/opensanslight"
+        android:hint="Nueva contraseña"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName11"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="475dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="213dp"
+        android:background="@drawable/stylo_bordebox_text"
+        android:ems="10"
+        android:fontFamily="@font/opensanslight"
+        android:hint="Confirmar contraseña"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="611dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="87dp"
+        android:background="@drawable/stylo_bordebox_button"
+        android:fontFamily="@font/opensanslight"
+        android:text="Guardar"
+        android:textColor="@color/color_10_tercero"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+</RelativeLayout>

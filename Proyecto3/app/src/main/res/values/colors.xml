@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_60_principal">#84CC44</color>
+    <color name="color_30_segundo">#FEFEFE</color>
+    <color name="color_10_tercero">#FFFF00</color>
+    <color name="color_cuarto">#90FFBE</color>
+    <color name="azul">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="amarillo">#DCFC3C</color>
+</resources>

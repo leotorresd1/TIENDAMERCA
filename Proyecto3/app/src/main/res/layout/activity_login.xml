@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="view.ui.activities.LoginActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="205dp"
+        android:layout_height="199dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="468dp"
+        app:srcCompat="@drawable/logocorporativo" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="390dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Correo electrónico"
+        android:fontFamily="@font/opensanslight"
+        android:background="@drawable/stylo_bordebox_text"/>
+
+
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="324dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Contraseña"
+        android:fontFamily="@font/opensanslight"
+        android:background="@drawable/stylo_bordebox_text"/>
+
+    <Button
+        android:id="@+id/BIngresa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="252dp"
+        android:text="Ingresa"
+        android:textColor="@color/color_10_tercero"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/opensanslight"
+        android:background="@drawable/stylo_bordebox_button"/>
+
+    <Button
+        android:id="@+id/BCrearCuenta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="188dp"
+        android:text="Crear cuenta"
+        android:textColor="@color/color_10_tercero"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/opensanslight"
+        android:background="@drawable/stylo_bordebox_button"/>
+
+
+    <TextView
+        android:id="@+id/BOlvidasteContraseña"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="167dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="150dp"
+        android:text="@string/restablecer"
+        android:textColor="@color/azul"
+        android:textStyle="bold"
+        android:fontFamily="@font/opensanslight" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="679dp"
+        android:fontFamily="@font/opensanslight"
+        android:text="¡Bienvenido!"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="65dp"
+        android:text=" En MERCATODO MT tenemos los mejores productos 100% colombianos de la mejor calidad y lo mejor... Tood al alcance de tu mano"
+        android:fontFamily="@font/opensanslight"/>
+</RelativeLayout>
