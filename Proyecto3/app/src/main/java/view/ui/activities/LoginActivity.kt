@@ -10,14 +10,14 @@ import com.example.proyecto3.R
 class LoginActivity : AppCompatActivity() {
     lateinit var Ingresabutton:Button
     lateinit var CrearCuentabutton:Button
-    lateinit var OlvidasteContraseñabutton:TextView
+    lateinit var OlvidasteContrasenabutton:TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
         Ingresabutton=findViewById(R.id.BIngresa)
         CrearCuentabutton=findViewById(R.id.BCrearCuenta)
-        OlvidasteContraseñabutton=findViewById(R.id.BOlvidasteContraseña)
+        OlvidasteContrasenabutton=findViewById(R.id.BOlvidasteContraseña)
 
         Ingresabutton.setOnClickListener {
             startActivity(Intent(this, HomeActivity::class.java))
@@ -27,7 +27,7 @@ class LoginActivity : AppCompatActivity() {
             startActivity(Intent(this, RegistroActivity::class.java))
         }
 
-        OlvidasteContraseñabutton.setOnClickListener {
+        OlvidasteContrasenabutton.setOnClickListener {
             startActivity(Intent(this, RestablecerActivity::class.java))
         }
 

@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
+import androidx.databinding.DataBindingUtil
 import com.example.proyecto3.R
 import com.example.proyecto3.databinding.ActivityMainBinding
 
